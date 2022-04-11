@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Mayo18 : MonoBehaviour
 {
-    public int edadUsuario = 0;
+    public int edadUsuario;
     public Text miTexto; 
 
     void Start()
@@ -16,8 +16,8 @@ public class Mayo18 : MonoBehaviour
             miTexto.text = "Es mayor de edad";
             Debug.Log("Es mayor de edad");
         }
-
-        else {
+        else
+        {
             miTexto.text = "No es mayor de edad";
             Debug.Log("No es mayor de edad"); 
         }
